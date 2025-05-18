@@ -1,0 +1,43 @@
+# ─ Python artefacts ─────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+
+# ─ virtual‑envs ─────────────────────────────────
+.venv/
+.venv310/
+env/
+venv/
+
+# ─ OS / editor cruft ────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# ─ ML runs & outputs ────────────────────────────
+outputs/              
+outputs/**            
+!outputs/             
+!outputs/.gitkeep     
+
+models/               
+
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# ─ Data ─────────────────────────────────────────
+data/
+data/**               
+!data/                
+!data/.gitkeep        
+
+*.csv                 
+*.fits
+*.jpg
+*.png
+.venv310/Lib/site-packages/tensorflow/include/tensorflow/core/common_runtime/pluggable_device/pluggable_device.h
